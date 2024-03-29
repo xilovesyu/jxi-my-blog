@@ -69,7 +69,7 @@ jobs:
       - name: Build blog project
         run: |
           echo ${{ github.workspace }}
-          npm build
+          npm run build
 
         # 资源拷贝
       - name: Build with Jekyll
