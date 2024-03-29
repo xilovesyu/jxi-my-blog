@@ -45,6 +45,22 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
+      {text: '后端', items: [
+        { text: 'java web', link: '/后端/java web/' },
+        { text: 'maven', link: '/后端/maven/' },
+        { text: 'mybatis', link: '/后端/mybatis教程/' },
+        { text: 'mysql', link: '/后端/mysql学习/' },
+        { text: 'shiro', link: '/后端/shiro教程/' },
+        { text: 'spring', link: '/后端/spring/' },
+        {text: 'java虚拟机', link: '/后端/深入理解java虚拟机/' }
+      ]},
+      {
+        text: '通用工具',
+        items: [
+          { text: 'markdown', link: '/通用工具/Markdown/' },
+          { text: 'vim', link: '/通用工具/vim基本使用/' },
+        ]
+      },
       {
         text: 'React', items: [
           { text: 'React介绍', link: '/react/' }
