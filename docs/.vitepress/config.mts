@@ -46,6 +46,14 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       {
+        text: 'leetcode',
+        items: [
+          { text: '数组', link: '/leetcode/数组/' },
+          { text: '滑动窗口', link: '/leetcode/滑动窗口/' },
+          { text: '链表', link: '/leetcode/链表/' },
+        ]
+      },
+      {
         text: '前端',
         items: [
           { text: 'Javascript', link: '/前端/Javascript/' },
