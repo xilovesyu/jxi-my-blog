@@ -45,6 +45,16 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
+      {
+        text: '前端',
+        items: [
+          { text: 'Javascript', link: '/前端/Javascript/' },
+          { text: 'Keycloak', link: '/前端/KeyCloak/' },
+          { text: 'NestJS', link: '/前端/NestJS/' },
+          { text: 'React', link: '/前端/React/' },
+          { text: 'Typescript', link: '/前端/Typescript/'}
+        ]
+      },
       {text: '后端', items: [
         { text: 'java web', link: '/后端/java web/' },
         { text: 'maven', link: '/后端/maven/' },
@@ -59,11 +69,6 @@ export default defineConfig({
         items: [
           { text: 'markdown', link: '/通用工具/Markdown/' },
           { text: 'vim', link: '/通用工具/vim基本使用/' },
-        ]
-      },
-      {
-        text: 'React', items: [
-          { text: 'React介绍', link: '/react/' }
         ]
       }
     ],
