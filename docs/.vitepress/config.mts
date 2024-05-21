@@ -49,6 +49,7 @@ export default defineConfig({
         text: 'leetcode',
         items: [
           { text: '二叉树', link: '/leetcode/二叉树/' },
+          {text: '动态规划', link: '/leetcode/动态规划/'},
           { text: '数组', link: '/leetcode/数组/' },
           { text: '滑动窗口', link: '/leetcode/滑动窗口/' },
           { text: '链表', link: '/leetcode/链表/' },
