@@ -50,6 +50,7 @@ export default defineConfig({
         items: [
           { text: '二叉树', link: '/leetcode/二叉树/' },
           {text: '回溯', link: '/leetcode/回溯/'},
+          {text: '贪心', link: '/leetcode/贪心/'},
           {text: '动态规划', link: '/leetcode/动态规划/'},
           { text: '数组', link: '/leetcode/数组/' },
           { text: '滑动窗口', link: '/leetcode/滑动窗口/' },
