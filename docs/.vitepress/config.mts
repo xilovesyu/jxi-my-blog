@@ -62,7 +62,7 @@ export default defineConfig({
         items: [
           { text: 'Javascript', link: '/前端/Javascript/' },
           { text: 'Keycloak', link: '/前端/KeyCloak/' },
-          {text: 'Jest', link: '/前端/Jest/'},
+          {text: 'UnitTest', link: '/前端/UnitTest/'},
           { text: 'NestJS', link: '/前端/NestJS/' },
           { text: 'React', link: '/前端/React/' },
           { text: 'Typescript', link: '/前端/Typescript/'}
